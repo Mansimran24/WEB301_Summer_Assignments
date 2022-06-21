@@ -16,7 +16,7 @@
 	float: left;
 text-align: center;
 margin:0 0 0 1%;
-background-color: #d8d8d8;
+background-color: green;
 }
 [class*="col-"]:first-child,[class*="col-"]:first-of-type{margin:0}
 .row{
@@ -34,6 +34,6 @@ background-color: #d8d8d8;
 		width:100%;
 		border:none;
 		margin:1% 0;
-		background-color:#d8d8d8;
+		background-color:green;
 	}
 }
