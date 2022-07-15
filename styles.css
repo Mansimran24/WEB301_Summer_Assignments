@@ -25,7 +25,7 @@ h1{
 
 @media  screen and (max-width: 700px) {
     ::placeholder{
-        color: rgb(43, 31, 65);
+        color: pink;
     }
     table{
         width: 100%;
