@@ -1,4 +1,41 @@
 html, body{
     margin: 0;
     padding: 0;
+    background-color: rgb(99, 94, 90);
+    font-family: cursive;
+    font-weight: 900;
+    font-size: larger;
 }
+h1{
+    color:rgb(139, 139, 11);
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#error{
+    color: red;
+}
+#success{
+    color: rgb(4, 74, 4);
+}
+
+::placeholder{
+    color: rgb(51, 40, 40);
+}
+
+@media  screen and (max-width: 700px) {
+    ::placeholder{
+        color: black;
+    }
+    table{
+        width: 100%;
+    }
+    label{
+        color: white;
+    }
+    input{
+        width: 100%;
+    }
+
+}
+
