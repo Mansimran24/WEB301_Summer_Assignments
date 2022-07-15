@@ -4,14 +4,51 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="author" content="YOURNAMEHERE" />
-  <title>YOURTITLEHERE</title>
+  <meta name="author" content="Mansimran Kaur" />
+  <title>Current Location</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
 
-  <!-- Your code goes here -->
+  <div>
+    <h1>Geographic Location </h1>
+    <div class="form-wrapper">
+      <table>
+        <tr>
+          <td width="20%"><label>First Name </label></td>
+          <td><input type="text" id="firstname" name="firstname" placeholder="First Name"/></td>
+        </tr>
+        <tr>
+          <td><label>Last Name </label></td>
+          <td><input type="text" id="lastname" name="lastname" placeholder="Last Name" /></td>
+        </tr>
+        <tr>
+          <td>
+            <label>Latitude</label>
+          </td>
+          <td><input type="text" id="latitude" name="latitude" placeholder="Latitude"/></td>
+        </tr>
+        <tr>
+          <td><label>Longitude</label></td>
+          <td><input type="text" id="longitude" name="longitude" placeholder="Longitude"/></td>
+        </tr>
+        <tr>
+          <td>
+            
+          </td>
+          <td>
+            <button id="btnP" name="btnP">Get current position</button> <button id="btnSubmit" name="btnSubmit">Submit Info</button>
+          </td>
+        </tr>
+        <tr>
+          <td><div id="error"></div>
+          <td><div id="success"></div></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
