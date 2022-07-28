@@ -1,0 +1,26 @@
+.btn-primary{
+background-color: rgb(8, 122, 122);
+}
+
+.btn-primaryy{
+    background-color: rgb(122, 65, 8);
+    color: white;
+    }
+    .btn-primaryy :hover{
+        background-color: blue;
+        color: white;
+        }
+
+    .btn-primaryyy{
+        background-color: rgb(84, 3, 79);
+        color: white;
+        }
+        .btn-primaryyy :hover
+        {
+            background-color: blue;
+            color: white;
+            }
+body{
+    background-color: antiquewhite;
+
+            }
